@@ -22,8 +22,8 @@ Parts:
 Connect Unit Watering: Connect Unit Watering to Port A. To turn the pump ON/OFF PIN 32 is used on M5 Core2.<br>
 Connect Unit Earth: I use jump wires to connect Unit Earth to the pin board on the back. I connect one jump wire to a ground pin (GND written on the back/it's black). The voltage of unit earth is 5V (written on back of unit), thus i connect it to a 5V slot. Lastly, i connect to an ADC PIN, i choose G35 (G36 is also available). Please check voltage prior to connecting to prevent damage of parts.
 </p>
-Finished, I have the following setup:
-<img src="https://github.com/Freshman25/M5Core_Water_Plants/blob/main/Connections.jpg?raw=true" alt="Connections" width="400" height="450">
+Finished, I have the following setup:<br>
+<img src="https://github.com/Freshman25/M5Core_Water_Plants/blob/main/Connections.jpg?raw=true" alt="Connections" width="400" height="450"><br>
 
 <p>Remark: While the unit watering (SKU:U101), comes with a moisture sensor, I am using the unit earth in addition. If you are using a different version of m5 microcontrollers you might consider doing it on one port, but I will not go into depth for that.</p>
 
@@ -32,7 +32,7 @@ I am using VS Code and install PlatformIO as plugin. Once the plugin has finishe
 ## Application
 Prior to development of the web interface, i test the humidity reader and pump functionality. Therefore, I provided the file tester.cpp . Copy it to you main.cpp and let it build to test. Make sure you have configured the correct pins.<br>
 <p>
-Once the functionality is confirmed, I develop the webinterface and finish the small application. The microcontroller needs to be in the same network as my development computer to see it.
+Once the functionality is confirmed, I develop the webinterface and finish the small application. The microcontroller needs to be in the same network as my development computer to see it.<br>
   <img src="https://github.com/Freshman25/M5Core_Water_Plants/blob/main/PlantBarometer3.png?raw=true" alt="WebInterface" width="270" height="450"><br>
   The image is hosted by Wikipedia, thus would like to state the author's credits: Donovan Govan., CC BY-SA 3.0 http://creativecommons.org/licenses/by-sa/3.0/ via Wikimedia Commons
 </p>
